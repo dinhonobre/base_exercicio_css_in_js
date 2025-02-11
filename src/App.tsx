@@ -5,7 +5,6 @@ import Hero from './components/Hero/Hero';
 import ListaVagas from './containers/ListaVagas/ListaVagas';
 import styled from 'styled-components';
 
-// Usando styled-components para o container
 const Container = styled.div`
   padding: 20px;
   max-width: 1200px;

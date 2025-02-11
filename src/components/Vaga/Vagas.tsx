@@ -1,19 +1,19 @@
-import { VagaContainer, VagaTitulo, VagaLink } from './VagaStyles'
+import { VagaContainer, VagaTitulo, VagaLink } from './VagaStyles';
 
 type Props = {
-  titulo: string
-  localizacao: string
-  nivel: string
-  modalidade: string
-  salarioMin: number
-  salarioMax: number
-  requisitos: string[]
+  titulo: string;
+  localizacao: string;
+  nivel: string;
+  modalidade: string;
+  salarioMin: number;
+  salarioMax: number;
+  requisitos: string[];
 };
 
 const Vaga = (props: Props) => (
   <VagaContainer>
     <VagaTitulo>{props.titulo}</VagaTitulo>
-    <ul>
+    <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
       <li>Localização: {props.localizacao}</li>
       <li>Senioridade: {props.nivel}</li>
       <li>Tipo de contratação: {props.modalidade}</li>
@@ -26,4 +26,4 @@ const Vaga = (props: Props) => (
   </VagaContainer>
 );
 
-export default Vaga
+export default Vaga;
