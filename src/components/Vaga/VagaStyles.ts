@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const VagaContainer = styled.li`
   border: 1px solid var(--cor-principal);
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-cards);
   color: var(--cor-principal);
   padding: 16px;
   transition: all ease 0.3s;

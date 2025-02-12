@@ -4,7 +4,7 @@ import { CabecalhoContainer, Titulo, Subtitulo } from './CabecalhoStyles'; // Im
 const Cabecalho = () => {
   return (
     <CabecalhoContainer>
-      <Titulo>As melhores vagas para tecnologia, design e artes visuais.</Titulo>
+      <Titulo>Exercício React</Titulo>
       <Subtitulo>Agora usando Styled Components!</Subtitulo>
     </CabecalhoContainer>
   );
